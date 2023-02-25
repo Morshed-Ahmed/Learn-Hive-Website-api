@@ -17,7 +17,7 @@ mongoose
     console.log("Database is connected");
   })
   .catch((error) => {
-    console.log("No connection");
+    console.log("No connections");
   });
 
 app.use("/courses", coursesRouter);
